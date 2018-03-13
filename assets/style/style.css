@@ -3,15 +3,66 @@ body {
   body .welcomePage {
     width: 100vw;
     height: 100vh;
-    background-image: url(../pics/wallpaper.jpg); }
-    body .welcomePage .header {
-      width: 20vw;
-      height: 25vh;
-      border: 3px solid black;
-      border-radius: 8px;
-      background-color: white;
-      margin: auto; }
-      body .welcomePage .header .top {
-        display: inline; }
+    background-image: url(../pics/wallpaper.jpg);
+    position: absolute;
+    margin: auto;
+    overflow: hidden; }
+    body .welcomePage .welcomeScroll {
+      overflow-y: scroll;
+      height: 100%; }
+      body .welcomePage .welcomeScroll .header {
+        width: 25vw;
+        height: 30vh;
+        border: 3px solid white;
+        border-radius: 8px;
+        background-color: white;
+        margin: 15% auto;
+        padding: 5px;
+        vertical-align: middle; }
+        body .welcomePage .welcomeScroll .header .top {
+          height: 50%; }
+          body .welcomePage .welcomeScroll .header .top .vcard {
+            float: left; }
+          body .welcomePage .welcomeScroll .header .top .name {
+            float: right; }
+        body .welcomePage .welcomeScroll .header .proList {
+          text-align: center;
+          width: 100%; }
+          body .welcomePage .welcomeScroll .header .proList ul li {
+            height: 5%;
+            display: inline; }
+        body .welcomePage .welcomeScroll .header .phone {
+          text-align: center;
+          height: 15%;
+          margin: auto; }
+          body .welcomePage .welcomeScroll .header .phone .number {
+            text-decoration: none;
+            color: #222222; }
+        body .welcomePage .welcomeScroll .header .link {
+          text-align: center;
+          width: 100%;
+          justify-content: space-between;
+          margin: auto; }
+          body .welcomePage .welcomeScroll .header .link .a {
+            text-decoration: none;
+            border: 3px solid #222222;
+            padding: 3px;
+            background-color: #222222;
+            border-radius: 5px;
+            color: white; }
+          body .welcomePage .welcomeScroll .header .link .b {
+            text-decoration: none;
+            border: 3px solid #222222;
+            padding: 3px;
+            background-color: #222222;
+            border-radius: 5px;
+            color: white; }
+          body .welcomePage .welcomeScroll .header .link .c {
+            text-decoration: none;
+            border: 3px solid #222222;
+            padding: 3px;
+            background-color: #222222;
+            border-radius: 5px;
+            color: white; }
 
 /*# sourceMappingURL=style.css.map */

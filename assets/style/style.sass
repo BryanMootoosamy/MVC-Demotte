@@ -1,15 +1,68 @@
+$color: #222222
 body
     margin: 0
     .welcomePage
         width: 100vw
         height: 100vh
         background-image: url(../pics/wallpaper.jpg)
-        .header
-            width: 20vw
-            height: 25vh
-            border: 3px solid black
-            border-radius: 8px
-            background-color: white
-            margin: auto
-            .top
-                display: inline
+        position: absolute
+        margin: auto
+        overflow: hidden
+        .welcomeScroll
+            overflow-y: scroll
+            height: 100%
+            .header
+                width: 25vw
+                height: 30vh
+                border: 3px solid white
+                border-radius: 8px
+                background-color: white
+                margin: 15% auto
+                padding: 5px
+                vertical-align: middle
+                .top
+                    height: 50%
+                    .vcard
+                        float: left
+                    .name
+                        float: right
+                .proList
+                    text-align: center
+                    width: 100%
+                    ul
+                        li
+                            height: 5%
+                            display: inline
+                .phone
+                    text-align: center
+                    height: 15%
+                    margin: auto
+                    .number
+                        text-decoration: none
+                        color: #222222
+                .link
+                    text-align: center
+                    width: 100%
+                    justify-content: space-between
+                    margin: auto
+                    .a
+                        text-decoration: none
+                        border: 3px solid $color
+                        padding: 3px
+                        background-color: $color
+                        border-radius: 5px
+                        color: white
+                    .b
+                        text-decoration: none
+                        border: 3px solid $color
+                        padding: 3px
+                        background-color: $color
+                        border-radius: 5px
+                        color: white
+                    .c
+                        text-decoration: none
+                        border: 3px solid $color
+                        padding: 3px
+                        background-color: $color
+                        border-radius: 5px
+                        color: white
