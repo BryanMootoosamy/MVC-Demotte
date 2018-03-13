@@ -1,31 +1,48 @@
 $color: #222222
+$backcolor: #F7F7F7
+@import url('https://fonts.googleapis.com/css?family=Lato')
+*
+    overflow: hidden
 body
     margin: 0
     .welcomePage
         width: 100vw
         height: 100vh
         background-image: url(../pics/wallpaper.jpg)
+        background-repeat: no-repeat
+        background-size: cover
         position: absolute
         margin: auto
-        overflow: hidden
+        .borderTop
+            height: 4%
+            background-color: $color
         .welcomeScroll
             overflow-y: scroll
             height: 100%
             .header
-                width: 25vw
+                width: 22vw
                 height: 30vh
                 border: 3px solid white
                 border-radius: 8px
                 background-color: white
-                margin: 15% auto
-                padding: 5px
+                margin: 15% auto 13% auto
+                padding: 20px
                 vertical-align: middle
+                font-family: "lato"
                 .top
                     height: 50%
                     .vcard
                         float: left
                     .name
-                        float: right
+                        font-size: 30px
+                        .firstname
+                            font-weight: bold
+                            margin-top: 0
+                            transform: translateX(1vw)
+                        .lastname
+                            transform: translateX(3vw)
+                            margin-top: 0
+                            font-weight: bolder
                 .proList
                     text-align: center
                     width: 100%
@@ -40,29 +57,43 @@ body
                     .number
                         text-decoration: none
                         color: #222222
+                        &:hover
+                            text-decoration: underline
                 .link
                     text-align: center
                     width: 100%
                     justify-content: space-between
                     margin: auto
-                    .a
+                    font-size: 12px
+                    height: 10%
+                    padding: 5px
+                    .a, .b, .c
                         text-decoration: none
-                        border: 3px solid $color
-                        padding: 3px
+                        border: 1px solid $color
+                        padding: 5px
                         background-color: $color
                         border-radius: 5px
                         color: white
-                    .b
-                        text-decoration: none
-                        border: 3px solid $color
-                        padding: 3px
+                        &:hover
+                            background-color: white
+                            color: $color
+            .welcomeStock
+                background-color: $backcolor
+                height: 100vh
+                font-family: "lato"
+                .stockTitle
+                    text-align: center
+                    padding: 1%
+                    font-weight: lighter
+                    font-size: 20px
+                .research
+                    text-align: center
+                    .researchButton
+                        border: 1px solid $color
                         background-color: $color
+                        color: $backcolor
                         border-radius: 5px
-                        color: white
-                    .c
-                        text-decoration: none
-                        border: 3px solid $color
                         padding: 3px
-                        background-color: $color
-                        border-radius: 5px
-                        color: white
+                        &:hover
+                            background-color: $backcolor
+                            color: $color
