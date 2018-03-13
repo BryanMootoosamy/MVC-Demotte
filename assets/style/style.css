@@ -100,12 +100,12 @@ body {
     height: 100vh; }
     body .presentation .presentationTop {
       font-family: "lato";
-      height: 4%;
-      background-color: #222222;
-      position: absolute;
       width: 100%; }
       body .presentation .presentationTop .borderTop {
-        color: #F7F7F7; }
+        color: #F7F7F7;
+        height: 4%;
+        background-color: #222222;
+        width: 100%; }
         body .presentation .presentationTop .borderTop ul {
           margin-left: 0;
           padding: 0;
@@ -115,5 +115,39 @@ body {
             margin: auto;
             padding: auto;
             font-size: 12px; }
+      body .presentation .presentationTop .borderTop2 {
+        color: #F7F7F7;
+        background-color: #222222;
+        width: 100%;
+        height: 10vh; }
+        body .presentation .presentationTop .borderTop2 .presentationName img {
+          float: left;
+          height: 7vh;
+          padding-left: 5px; }
+        body .presentation .presentationTop .borderTop2 .presentationName .name .firstname {
+          margin-top: 0;
+          margin-bottom: 0;
+          padding: 0;
+          transform: translateX(1vw); }
+        body .presentation .presentationTop .borderTop2 .presentationName .name .lastname {
+          margin-top: 0;
+          padding: 0;
+          transform: translateX(3vw); }
+        body .presentation .presentationTop .borderTop2 .presentationLink {
+          text-align: center;
+          transform: translateY(-6vh);
+          padding: 15px; }
+          body .presentation .presentationTop .borderTop2 .presentationLink .a {
+            padding: 10px;
+            border: 1px solid #564E44;
+            background-color: #564E44;
+            color: #F7F7F7;
+            border-radius: 5px; }
+          body .presentation .presentationTop .borderTop2 .presentationLink .b, body .presentation .presentationTop .borderTop2 .presentationLink .c {
+            border: 1px solid #222222;
+            padding: 5px;
+            background-color: #222222;
+            border-radius: 5px;
+            color: white; }
 
 /*# sourceMappingURL=style.css.map */
