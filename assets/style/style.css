@@ -95,5 +95,25 @@ body {
             body .welcomePage .welcomeScroll .welcomeStock .research .researchButton:hover {
               background-color: #F7F7F7;
               color: #222222; }
+  body .presentation {
+    width: 100vw;
+    height: 100vh; }
+    body .presentation .presentationTop {
+      font-family: "lato";
+      height: 4%;
+      background-color: #222222;
+      position: absolute;
+      width: 100%; }
+      body .presentation .presentationTop .borderTop {
+        color: #F7F7F7; }
+        body .presentation .presentationTop .borderTop ul {
+          margin-left: 0;
+          padding: 0;
+          transform: translateY(-1vh); }
+          body .presentation .presentationTop .borderTop ul li {
+            display: inline;
+            margin: auto;
+            padding: auto;
+            font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */
