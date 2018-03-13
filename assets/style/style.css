@@ -1,0 +1,17 @@
+body {
+  margin: 0; }
+  body .welcomePage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../pics/wallpaper.jpg); }
+    body .welcomePage .header {
+      width: 20vw;
+      height: 25vh;
+      border: 3px solid black;
+      border-radius: 8px;
+      background-color: white;
+      margin: auto; }
+      body .welcomePage .header .top {
+        display: inline; }
+
+/*# sourceMappingURL=style.css.map */
