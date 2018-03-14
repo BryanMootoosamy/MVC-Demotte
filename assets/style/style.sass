@@ -1,10 +1,12 @@
 $color: #222222
 $backcolor: #F7F7F7
 @import url('https://fonts.googleapis.com/css?family=Lato')
-*
-    overflow: hidden
+
 body
     margin: 0
+    padding: 0
+    background-color: $backcolor
+    overflow-x: hidden
     .welcomePage
         width: 100vw
         height: 100vh
@@ -13,6 +15,7 @@ body
         background-size: cover
         position: absolute
         margin: auto
+        overflow: hidden
         .borderTop
             height: 4%
             background-color: $color
@@ -101,16 +104,19 @@ body
         width: 100vw
         height: 100vh
         .presentationTop
+            transform: translateY(-2vh)
             font-family: "lato"
             width: 100%
+            position: fixed
             .borderTop
                 color: $backcolor
-                height: 4%
+                height: 3vh
                 background-color: $color
                 width: 100%
                 ul
-                    margin-left: 0
+                    margin: 0
                     padding: 0
+                    padding-top: 15px
                     transform: translateY(-1vh)
                     li
                         display: inline
@@ -122,6 +128,8 @@ body
                 background-color: $color
                 width: 100%
                 height: 10vh
+                border-top: 1px solid grey
+                padding: 5px 0 0 0
                 .presentationName
                     img
                         float: left
@@ -153,3 +161,142 @@ body
                         background-color: $color
                         border-radius: 5px
                         color: white
+                        &:hover
+                            background-color: $backcolor
+                            color: $color
+                            padding: 10px
+                .phoneNumber
+                    float: right
+                    transform: translateY(-12vh)
+                    .number
+                        color: $backcolor
+                        font-size: 14px
+                        padding-right: 3vw
+        .main
+            height: 100vh
+            text-align: center
+            font-family: "lato"
+            width: 100vw
+            .presentationMotte
+                transform: translateY(20vh)
+            img
+                margin-top: 25vh
+            .desc1
+                width: 20vw
+                margin: auto
+                text-align: left
+                font-size: 18px
+            .desc2
+                width: 20vw
+                margin: 5vh auto
+                text-align: center
+                font-size: 18px
+            ul
+                text-align: center
+                list-style-type: none
+                line-height: 5vh
+                .buttonList
+                    border: 1px solid $color
+                    padding: 5px
+                    background-color: $color
+                    border-radius: 5px
+                    color: white
+                    &:hover
+                        background-color: $backcolor
+                        color: $color
+                        padding: 10px
+            .presentationFooter
+                background-color: $color
+                height: 19vh
+                color: $backcolor
+                font-size: 14px
+                .lignea
+                    padding-top: 5vh
+                    .footerLink
+                        color: $backcolor
+                .ligneb
+                    color: $backcolor
+    .contact
+        width: 100vw
+        height: 100vh
+        font-family: "lato"
+        .contactTop
+            .borderTop
+                height: 3vh
+                background-color: $color
+                width: 100vw
+                color: $backcolor
+                ul
+                    font-size: 14px
+                    height: 3vh
+                    list-style-type: none
+                    display: inline
+                    height: 5vh
+                    margin: 0
+                    padding: 0
+                    padding-top: 15px
+                    li
+                        display: inline
+            .borderTop2
+                color: $backcolor
+                background-color: $color
+                width: 100%
+                height: 10vh
+                border-top: 1px solid grey
+                padding: 5px 0 0 0
+                .presentationName
+                    img
+                        float: left
+                        height: 7vh
+                        padding-left: 5px
+                    .name
+                        .firstname
+                            margin-top: 0
+                            margin-bottom: 0
+                            padding: 0
+                            transform: translateX(1vw)
+                        .lastname
+                            margin-top: 0
+                            padding: 0
+                            transform: translateX(3vw)
+                .presentationLink
+                    text-align: center
+                    transform: translateY(-6vh)
+                    padding: 15px
+                    .c
+                        padding: 10px
+                        border: 1px solid #564E44
+                        background-color: #564E44
+                        color: $backcolor
+                        border-radius: 5px
+                    .a, .b
+                        border: 1px solid $color
+                        padding: 5px
+                        background-color: $color
+                        border-radius: 5px
+                        color: white
+                        &:hover
+                            background-color: $backcolor
+                            color: $color
+                            padding: 10px
+                .phoneNumber
+                    float: right
+                    transform: translateY(-12vh)
+                    .number
+                        color: $backcolor
+                        font-size: 14px
+                        padding-right: 3vw
+        .main
+            margin: auto
+            text-align: center
+            width: 100vw
+            .title
+                width: 100vw
+                text-align: center
+                margin: 15vh auto 0 auto
+                font-size: 30px
+            .magInfo
+                margin: auto
+                p
+                    width: 20vw
+                    margin: auto

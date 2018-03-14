@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-* {
-  overflow: hidden; }
-
 body {
-  margin: 0; }
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F7;
+  overflow-x: hidden; }
   body .welcomePage {
     width: 100vw;
     height: 100vh;
@@ -11,7 +11,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    margin: auto; }
+    margin: auto;
+    overflow: hidden; }
     body .welcomePage .borderTop {
       height: 4%;
       background-color: #222222; }
@@ -99,16 +100,19 @@ body {
     width: 100vw;
     height: 100vh; }
     body .presentation .presentationTop {
+      transform: translateY(-2vh);
       font-family: "lato";
-      width: 100%; }
+      width: 100%;
+      position: fixed; }
       body .presentation .presentationTop .borderTop {
         color: #F7F7F7;
-        height: 4%;
+        height: 3vh;
         background-color: #222222;
         width: 100%; }
         body .presentation .presentationTop .borderTop ul {
-          margin-left: 0;
+          margin: 0;
           padding: 0;
+          padding-top: 15px;
           transform: translateY(-1vh); }
           body .presentation .presentationTop .borderTop ul li {
             display: inline;
@@ -119,7 +123,9 @@ body {
         color: #F7F7F7;
         background-color: #222222;
         width: 100%;
-        height: 10vh; }
+        height: 10vh;
+        border-top: 1px solid grey;
+        padding: 5px 0 0 0; }
         body .presentation .presentationTop .borderTop2 .presentationName img {
           float: left;
           height: 7vh;
@@ -149,5 +155,141 @@ body {
             background-color: #222222;
             border-radius: 5px;
             color: white; }
+            body .presentation .presentationTop .borderTop2 .presentationLink .b:hover, body .presentation .presentationTop .borderTop2 .presentationLink .c:hover {
+              background-color: #F7F7F7;
+              color: #222222;
+              padding: 10px; }
+        body .presentation .presentationTop .borderTop2 .phoneNumber {
+          float: right;
+          transform: translateY(-12vh); }
+          body .presentation .presentationTop .borderTop2 .phoneNumber .number {
+            color: #F7F7F7;
+            font-size: 14px;
+            padding-right: 3vw; }
+    body .presentation .main {
+      height: 100vh;
+      text-align: center;
+      font-family: "lato";
+      width: 100vw; }
+      body .presentation .main .presentationMotte {
+        transform: translateY(20vh); }
+      body .presentation .main img {
+        margin-top: 25vh; }
+      body .presentation .main .desc1 {
+        width: 20vw;
+        margin: auto;
+        text-align: left;
+        font-size: 18px; }
+      body .presentation .main .desc2 {
+        width: 20vw;
+        margin: 5vh auto;
+        text-align: center;
+        font-size: 18px; }
+      body .presentation .main ul {
+        text-align: center;
+        list-style-type: none;
+        line-height: 5vh; }
+        body .presentation .main ul .buttonList {
+          border: 1px solid #222222;
+          padding: 5px;
+          background-color: #222222;
+          border-radius: 5px;
+          color: white; }
+          body .presentation .main ul .buttonList:hover {
+            background-color: #F7F7F7;
+            color: #222222;
+            padding: 10px; }
+      body .presentation .main .presentationFooter {
+        background-color: #222222;
+        height: 19vh;
+        color: #F7F7F7;
+        font-size: 14px; }
+        body .presentation .main .presentationFooter .lignea {
+          padding-top: 5vh; }
+          body .presentation .main .presentationFooter .lignea .footerLink {
+            color: #F7F7F7; }
+        body .presentation .main .presentationFooter .ligneb {
+          color: #F7F7F7; }
+  body .contact {
+    width: 100vw;
+    height: 100vh;
+    font-family: "lato"; }
+    body .contact .contactTop .borderTop {
+      height: 3vh;
+      background-color: #222222;
+      width: 100vw;
+      color: #F7F7F7; }
+      body .contact .contactTop .borderTop ul {
+        font-size: 14px;
+        height: 3vh;
+        list-style-type: none;
+        display: inline;
+        height: 5vh;
+        margin: 0;
+        padding: 0;
+        padding-top: 15px; }
+        body .contact .contactTop .borderTop ul li {
+          display: inline; }
+    body .contact .contactTop .borderTop2 {
+      color: #F7F7F7;
+      background-color: #222222;
+      width: 100%;
+      height: 10vh;
+      border-top: 1px solid grey;
+      padding: 5px 0 0 0; }
+      body .contact .contactTop .borderTop2 .presentationName img {
+        float: left;
+        height: 7vh;
+        padding-left: 5px; }
+      body .contact .contactTop .borderTop2 .presentationName .name .firstname {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        transform: translateX(1vw); }
+      body .contact .contactTop .borderTop2 .presentationName .name .lastname {
+        margin-top: 0;
+        padding: 0;
+        transform: translateX(3vw); }
+      body .contact .contactTop .borderTop2 .presentationLink {
+        text-align: center;
+        transform: translateY(-6vh);
+        padding: 15px; }
+        body .contact .contactTop .borderTop2 .presentationLink .c {
+          padding: 10px;
+          border: 1px solid #564E44;
+          background-color: #564E44;
+          color: #F7F7F7;
+          border-radius: 5px; }
+        body .contact .contactTop .borderTop2 .presentationLink .a, body .contact .contactTop .borderTop2 .presentationLink .b {
+          border: 1px solid #222222;
+          padding: 5px;
+          background-color: #222222;
+          border-radius: 5px;
+          color: white; }
+          body .contact .contactTop .borderTop2 .presentationLink .a:hover, body .contact .contactTop .borderTop2 .presentationLink .b:hover {
+            background-color: #F7F7F7;
+            color: #222222;
+            padding: 10px; }
+      body .contact .contactTop .borderTop2 .phoneNumber {
+        float: right;
+        transform: translateY(-12vh); }
+        body .contact .contactTop .borderTop2 .phoneNumber .number {
+          color: #F7F7F7;
+          font-size: 14px;
+          padding-right: 3vw; }
+    body .contact .main {
+      margin: auto;
+      text-align: center;
+      width: 100vw; }
+      body .contact .main .title {
+        width: 100vw;
+        text-align: center;
+        margin: 15vh auto 0 auto;
+        font-size: 30px; }
+      body .contact .main .magInfo {
+        margin: auto; }
+        body .contact .main .magInfo p {
+          width: 20vw;
+          margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
