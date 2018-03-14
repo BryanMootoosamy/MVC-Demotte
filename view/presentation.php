@@ -9,7 +9,7 @@
         </div>
         <div class="borderTop2">
             <div class="presentationName">
-                <img src="assets/pics/vcard.png" alt="oeil">
+                <a href="index.php"><img src="assets/pics/vcard.png" alt="oeil"></a>
                 <div class="name">
                     <h1 class="firstname">Didier</h1>
                     <h1 class="lastname">Motte</h1>

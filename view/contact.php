@@ -9,7 +9,9 @@
         </div>
         <div class="borderTop2">
             <div class="presentationName">
-                <img src="assets/pics/vcard.png" alt="oeil">
+                <div class="url">
+                    <a href="index.php"><img src="assets/pics/vcard.png" alt="oeil"></a>
+                </div>
                 <div class="name">
                     <h1 class="firstname">Didier</h1>
                     <h1 class="lastname">Motte</h1>
@@ -37,5 +39,27 @@
             <h1>Didier Motte</h1>
             <a href="mail:dmotte@skynet.be">dmotte@skynet.be</a>
         </div>
+        <div class="info">
+            <p>+32 495 20.59.34
+                Rue Saint Georges 35
+                B-1400 Nivelles
+                Belgique.
+            </p>
+            <iframe
+                width="600"
+                height="450"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDwtRTEE3_VKMoouu4yexqapqAui6THvuc
+                &q=Didier+Motte" allowfullscreen>
+            </iframe>
+        </div>
+        <footer class="presentationFooter">
+            <div class="ligne1">
+                <p class="lignea">&#9400; 2018 Didier Motte +32 495 20 59 34 - <a class="footerLink" href="mail:dmotte@skynet.be">dmotte@skynet.be</a> - <a class="footerLink" href="index.php?action=contact">Plan D'accès</a></p>
+                <p>Décorateur, Antiquités, Aménagement d'intérieurs, Belgique</p>
+                <p>Restez à jour via: <a class="ligneb" href="https://www.facebook.com/antiquites.decoration">Facebook</a> & <a class="ligneb" href="https://www.instagram.com/DidierMotte/">Instagram</a></p>
+                <p>Réalisé dans le cadre de la formation BeCode</p>
+            </div>
+        </footer>
     </section>
 </div>
