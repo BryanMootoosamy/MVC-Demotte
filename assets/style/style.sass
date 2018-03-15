@@ -1,6 +1,13 @@
 $color: #222222
 $backcolor: #F7F7F7
 @import url('https://fonts.googleapis.com/css?family=Lato')
+@keyframes zoom
+    0%
+        height: 25vh
+        width: auto
+    100%
+        height: 40vh
+        width: auto
 
 body
     margin: 0
@@ -100,6 +107,64 @@ body
                         &:hover
                             background-color: $backcolor
                             color: $color
+                .stockContent
+                    padding: 15px
+                    display: flex
+                    .meuble1, .meuble2, .meuble3, .meuble4, .meuble5, .meuble6
+                        width: 10vw
+                        padding: 10px
+                        border: 1px solid $color
+                        background-color: $color
+                        text-align: center
+                        border-radius: 8px
+                        overflow: hidden
+                        height: 30vh
+                        margin-left: 1vw
+                        margin-top: 1vh
+                        a
+                            text-decoration: none
+                            color: $backcolor
+                            overflow: hidden
+                            height: 30vh
+                            .imgShow
+                                overflow: hidden
+                                height: 25vh
+                                text-align: center
+                                vertical-align: middle
+                                img
+                                    height: 25vh
+                                    transition: transform 1s
+                                    &:hover
+                                        transform: scale(2,2)
+            .citation
+                height: 30vh
+                margin: 35vh auto
+                font-family: "lato"
+                width: 35vw
+                text-align: center
+                h1
+                    padding: 10px
+                    background-color: $backcolor
+                    color: $color
+                p
+                    padding: 10px
+                    background-color: $color
+                    color: $backcolor
+                    width: 10vw
+                    margin: auto
+            .welcomeFooter
+                background-color: $color
+                height: 19vh
+                color: $backcolor
+                font-size: 14px
+                text-align: center
+                font-family: "lato"
+                .lignea
+                    padding-top: 5vh
+                    .footerLink
+                        color: $backcolor
+                .ligneb
+                    color: $backcolor
     .presentation
         width: 100vw
         height: 100vh
@@ -405,3 +470,32 @@ body
                         color: $backcolor
                         font-size: 14px
                         padding-right: 3vw
+        .stockContent
+            padding: 15px
+            display: flex
+            .meuble1, .meuble2, .meuble3, .meuble4, .meuble5, .meuble6
+                width: 10vw
+                padding: 10px
+                border: 1px solid $color
+                background-color: $color
+                text-align: center
+                border-radius: 8px
+                overflow: hidden
+                height: 30vh
+                margin-left: 1vw
+                margin-top: 1vh
+                a
+                    text-decoration: none
+                    color: $backcolor
+                    overflow: hidden
+                    height: 30vh
+                    .imgShow
+                        overflow: hidden
+                        height: 25vh
+                        text-align: center
+                        vertical-align: middle
+                        img
+                            height: 25vh
+                            transition: transform 1s
+                            &:hover
+                                transform: scale(2,2)

@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
+@keyframes zoom {
+  0% {
+    height: 25vh;
+    width: auto; }
+  100% {
+    height: 40vh;
+    width: auto; } }
 body {
   margin: 0;
   padding: 0;
@@ -96,6 +103,64 @@ body {
             body .welcomePage .welcomeScroll .welcomeStock .research .researchButton:hover {
               background-color: #F7F7F7;
               color: #222222; }
+        body .welcomePage .welcomeScroll .welcomeStock .stockContent {
+          padding: 15px;
+          display: flex; }
+          body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble1, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble2, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble3, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble4, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble5, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble6 {
+            width: 10vw;
+            padding: 10px;
+            border: 1px solid #222222;
+            background-color: #222222;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 30vh;
+            margin-left: 1vw;
+            margin-top: 1vh; }
+            body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble1 a, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble2 a, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble3 a, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble4 a, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble5 a, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble6 a {
+              text-decoration: none;
+              color: #F7F7F7;
+              overflow: hidden;
+              height: 30vh; }
+              body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble1 a .imgShow, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble2 a .imgShow, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble3 a .imgShow, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble4 a .imgShow, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble5 a .imgShow, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble6 a .imgShow {
+                overflow: hidden;
+                height: 25vh;
+                text-align: center;
+                vertical-align: middle; }
+                body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble1 a .imgShow img, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble2 a .imgShow img, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble3 a .imgShow img, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble4 a .imgShow img, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble5 a .imgShow img, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble6 a .imgShow img {
+                  height: 25vh;
+                  transition: transform 1s; }
+                  body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble1 a .imgShow img:hover, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble2 a .imgShow img:hover, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble3 a .imgShow img:hover, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble4 a .imgShow img:hover, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble5 a .imgShow img:hover, body .welcomePage .welcomeScroll .welcomeStock .stockContent .meuble6 a .imgShow img:hover {
+                    transform: scale(2, 2); }
+      body .welcomePage .welcomeScroll .citation {
+        height: 30vh;
+        margin: 35vh auto;
+        font-family: "lato";
+        width: 35vw;
+        text-align: center; }
+        body .welcomePage .welcomeScroll .citation h1 {
+          padding: 10px;
+          background-color: #F7F7F7;
+          color: #222222; }
+        body .welcomePage .welcomeScroll .citation p {
+          padding: 10px;
+          background-color: #222222;
+          color: #F7F7F7;
+          width: 10vw;
+          margin: auto; }
+      body .welcomePage .welcomeScroll .welcomeFooter {
+        background-color: #222222;
+        height: 19vh;
+        color: #F7F7F7;
+        font-size: 14px;
+        text-align: center;
+        font-family: "lato"; }
+        body .welcomePage .welcomeScroll .welcomeFooter .lignea {
+          padding-top: 5vh; }
+          body .welcomePage .welcomeScroll .welcomeFooter .lignea .footerLink {
+            color: #F7F7F7; }
+        body .welcomePage .welcomeScroll .welcomeFooter .ligneb {
+          color: #F7F7F7; }
   body .presentation {
     width: 100vw;
     height: 100vh; }
@@ -392,5 +457,34 @@ body {
             color: #F7F7F7;
             font-size: 14px;
             padding-right: 3vw; }
+    body .stock .stockContent {
+      padding: 15px;
+      display: flex; }
+      body .stock .stockContent .meuble1, body .stock .stockContent .meuble2, body .stock .stockContent .meuble3, body .stock .stockContent .meuble4, body .stock .stockContent .meuble5, body .stock .stockContent .meuble6 {
+        width: 10vw;
+        padding: 10px;
+        border: 1px solid #222222;
+        background-color: #222222;
+        text-align: center;
+        border-radius: 8px;
+        overflow: hidden;
+        height: 30vh;
+        margin-left: 1vw;
+        margin-top: 1vh; }
+        body .stock .stockContent .meuble1 a, body .stock .stockContent .meuble2 a, body .stock .stockContent .meuble3 a, body .stock .stockContent .meuble4 a, body .stock .stockContent .meuble5 a, body .stock .stockContent .meuble6 a {
+          text-decoration: none;
+          color: #F7F7F7;
+          overflow: hidden;
+          height: 30vh; }
+          body .stock .stockContent .meuble1 a .imgShow, body .stock .stockContent .meuble2 a .imgShow, body .stock .stockContent .meuble3 a .imgShow, body .stock .stockContent .meuble4 a .imgShow, body .stock .stockContent .meuble5 a .imgShow, body .stock .stockContent .meuble6 a .imgShow {
+            overflow: hidden;
+            height: 25vh;
+            text-align: center;
+            vertical-align: middle; }
+            body .stock .stockContent .meuble1 a .imgShow img, body .stock .stockContent .meuble2 a .imgShow img, body .stock .stockContent .meuble3 a .imgShow img, body .stock .stockContent .meuble4 a .imgShow img, body .stock .stockContent .meuble5 a .imgShow img, body .stock .stockContent .meuble6 a .imgShow img {
+              height: 25vh;
+              transition: transform 1s; }
+              body .stock .stockContent .meuble1 a .imgShow img:hover, body .stock .stockContent .meuble2 a .imgShow img:hover, body .stock .stockContent .meuble3 a .imgShow img:hover, body .stock .stockContent .meuble4 a .imgShow img:hover, body .stock .stockContent .meuble5 a .imgShow img:hover, body .stock .stockContent .meuble6 a .imgShow img:hover {
+                transform: scale(2, 2); }
 
 /*# sourceMappingURL=style.css.map */

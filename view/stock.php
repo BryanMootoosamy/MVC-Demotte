@@ -26,4 +26,24 @@
                 </div>
             </div>
         </div>
+        <div class="stockContent">
+            <div class="meuble1">
+                <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble1.jpg"></div><p>Meuble-Vitrine de chapelier</p></a>
+            </div>
+            <div class="meuble2">
+                <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble2.jpg"></div><p>Meuble de barbier / coiffeur</p></a>
+            </div>
+            <div class="meuble3">
+                <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble3.jpg"></div><p>Meuble de coiffeur / barbier</p></a>
+            </div>
+            <div class="meuble4">
+                <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble4.jpg"></div><p>Comptoir de pharmacie – herboristerie double-face</p></a>
+            </div>
+            <div class="meuble5">
+                <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble5.jpg"></div><p>Comptoir de réception en chêne</p></a>
+            </div>
+            <div class="meuble6">
+                <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble6.jpg"></div><p>Meuble de coiffeur - barbier</p></a>
+            </div>
+        </div>
     </section>

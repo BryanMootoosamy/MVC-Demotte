@@ -38,6 +38,38 @@
                     <button type="send" class="researchButton" name="searchButton">Rechercher</button>
                 </form>
             </div>
+            <div class="stockContent">
+                <div class="meuble1">
+                    <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble1.jpg"></div><p>Meuble-Vitrine de chapelier</p></a>
+                </div>
+                <div class="meuble2">
+                    <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble2.jpg"></div><p>Meuble de barbier / coiffeur</p></a>
+                </div>
+                <div class="meuble3">
+                    <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble3.jpg"></div><p>Meuble de coiffeur / barbier</p></a>
+                </div>
+                <div class="meuble4">
+                    <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble4.jpg"></div><p>Comptoir de pharmacie – herboristerie double-face</p></a>
+                </div>
+                <div class="meuble5">
+                    <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble5.jpg"></div><p>Comptoir de réception en chêne</p></a>
+                </div>
+                <div class="meuble6">
+                    <a href="#"><div class="imgShow"><img src="assets/pics/meubles/meuble6.jpg"></div><p>Meuble de coiffeur - barbier</p></a>
+                </div>
+            </div>
         </section>
+        <div class="citation">
+            <h1>"L'ennui naquit un jour de l'uniformité"</h1>
+            <p>– Antoine Houdar de la Motte</p>
+        </div>
+        <footer class="welcomeFooter">
+            <div class="ligne1">
+                <p class="lignea">&#9400; 2018 Didier Motte +32 495 20 59 34 - <a class="footerLink" href="mail:dmotte@skynet.be">dmotte@skynet.be</a> - <a class="footerLink" href="index.php?action=contact">Plan D'accès</a></p>
+                <p>Décorateur, Antiquités, Aménagement d'intérieurs, Belgique</p>
+                <p>Restez à jour via: <a class="ligneb" href="https://www.facebook.com/antiquites.decoration">Facebook</a> & <a class="ligneb" href="https://www.instagram.com/DidierMotte/">Instagram</a></p>
+                <p>Réalisé dans le cadre de la formation BeCode</p>
+            </div>
+        </footer>
     </div>
 </div>
