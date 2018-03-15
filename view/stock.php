@@ -10,7 +10,7 @@
         <div class="borderTop2">
             <div class="presentationName">
                 <div class="url">
-                    <a href="index.php"><img src="assets/pics/vcard.png" alt="oeil"></a>
+                    <a href="index.php"><div class="thumbPic"><img src="assets/pics/vcard.png" alt="oeil"></div></a>
                 </div>
                 <div class="name">
                     <h1 class="firstname">Didier</h1>
